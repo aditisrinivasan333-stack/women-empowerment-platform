@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EmbraceHer • Women Empowerment & Self-Love Sanctuary</title>
+  <meta name="description" content="A safe space for women to explore the causes of insecurities, find actionable healing solutions, celebrate self-love, and connect with a supportive community.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Dancing+Script:wght@500;600;700&family=Caveat:wght@500;600;700&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Ambient Glowing Blobs & Pink DNA Strands -->
+  <div class="ambient-bg" aria-hidden="true">
+    <div class="blob-1"></div>
+    <div class="blob-2"></div>
+    <div class="blob-3"></div>
+    <!-- Pink DNA Strands -->
+    <img src="assets/images/pink_dna_strand.svg" class="ambient-dna dna-left" alt="" />
+    <img src="assets/images/pink_dna_strand.svg" class="ambient-dna dna-right" alt="" />
+    <img src="assets/images/pink_dna_strand.svg" class="ambient-dna dna-center" alt="" />
+  </div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container nav-wrapper">
+      <a href="#hero" class="brand-logo" aria-label="EmbraceHer Home">
+        <div class="brand-logo-icon">
+          <!-- Lotus / Sparkle SVG -->
+          <svg width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+          </svg>
+        </div>
+        <span class="brand-logo-text">Embrace<span>Her</span></span>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#explore-insecurities" class="nav-link">Explore Insecurities</a></li>
+          <li><a href="#deep-dive-section" class="nav-link">Causes & Solutions</a></li>
+          <li><a href="#community-section" class="nav-link">Sisterhood Circle</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="breathe-nav-btn" id="open-breathe-btn" title="Take a 1-minute calming breath">
+          <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+          </svg>
+          <span>Calm Breath</span>
+        </button>
+
+        <button class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Toggle visual theme">
+          <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/>
+          </svg>
+          <span>Theme</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <!-- Hero Stage with Cartoonified Diverse Women Backdrop -->
+        <div class="hero-stage">
+          <div class="hero-backdrop-frame" aria-hidden="true">
+            <img 
+              src="assets/images/diverse_women_hero.jpg" 
+              alt="Cartoon illustration of diverse women of different body shapes, sizes, skin colors, with acne, scars and stretch marks" 
+              class="hero-backdrop-img"
+            />
+            <div class="hero-backdrop-gradient"></div>
+          </div>
+
+          <div class="hero-text-overlay">
+            <div class="hero-pill">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"/>
+              </svg>
+              <span>Safe Space for Healing, Connection & Growth</span>
+            </div>
+
+            <h1 class="hero-title">
+              Turn Insecurities into <span class="highlight">Self-Love</span> & Unstoppable Strength
+            </h1>
+
+            <p class="hero-subtitle">
+              You are not broken, behind, or alone. Understand the hidden causes behind what holds you back, discover practical healing solutions, and celebrate the magnificent woman you already are.
+            </p>
+
+            <div style="display: flex; align-items: center; justify-content: center; gap: 0.75rem; flex-wrap: wrap; margin-top: 1.25rem;">
+              <div class="hero-diversity-tag">
+                <span class="diversity-tag-dot"></span>
+                <span>Diverse Bodies • Skin Realism • Acne & Scars Celebrated • Unconditional Love</span>
+              </div>
+              <button class="hero-view-art-btn" id="open-art-modal-btn" type="button" title="View Full Illustration">
+                <svg width="15" height="15" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
+                <span>View Full Artwork</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Search Box with Live Dropdown -->
+        <div class="search-wrapper">
+          <form class="search-input-box" id="hero-search-form" role="search" aria-label="Search Insecurities">
+            <div class="search-icon">
+              <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+              </svg>
+            </div>
+            <input 
+              type="text" 
+              id="search-insecurity-input" 
+              class="search-input" 
+              placeholder="Search any insecurity (e.g., body weight, imposter syndrome, acne, boundaries)..."
+              autocomplete="off"
+              aria-autocomplete="list"
+              aria-controls="search-dropdown"
+            />
+            <button type="button" class="search-clear-btn" id="search-clear-btn" aria-label="Clear search">
+              <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+              </svg>
+            </button>
+            <button type="submit" class="search-action-btn">
+              <span>Find Support</span>
+            </button>
+          </form>
+
+          <!-- Autocomplete Dropdown List -->
+          <div class="search-dropdown" id="search-dropdown" role="listbox">
+            <!-- Dynamically populated via app.js -->
+          </div>
+        </div>
+
+        <!-- Quick Select Pills -->
+        <div class="quick-tags">
+          <span class="quick-tag-label">Common Topics:</span>
+          <button class="quick-tag-btn" data-target-id="body-weight-shape">Body Shape & Size</button>
+          <button class="quick-tag-btn" data-target-id="imposter-syndrome">Imposter Syndrome</button>
+          <button class="quick-tag-btn" data-target-id="skin-imperfections">Skin Realism</button>
+          <button class="quick-tag-btn" data-target-id="people-pleasing">Saying "No" & Boundaries</button>
+          <button class="quick-tag-btn" data-target-id="relationship-milestones">Singlehood Timelines</button>
+        </div>
+
+        <!-- Daily Affirmation Banner -->
+        <div style="max-width: 680px; margin: 3rem auto 0; background: var(--bg-surface); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 1.25rem 1.75rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; box-shadow: var(--shadow-subtle);">
+          <div style="display: flex; align-items: center; gap: 0.85rem; text-align: left;">
+            <div style="width: 36px; height: 36px; border-radius: 50%; background: var(--bg-accent-soft); color: var(--primary); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+              ✨
+            </div>
+            <div>
+              <div style="font-size: 0.75rem; text-transform: uppercase; font-weight: 700; color: var(--primary); letter-spacing: 0.05em;">Today's Gentle Truth</div>
+              <div id="hero-daily-affirmation-text" style="font-family: var(--font-serif); font-size: 1.05rem; font-style: italic; color: var(--text-main); transition: opacity 0.2s ease;">
+                “I honor the woman I am becoming, appreciating every step of the journey that brought me here.”
+              </div>
+            </div>
+          </div>
+          <button id="shuffle-affirmation-btn" title="Show another affirmation" style="background: none; border: 1px solid var(--border-color); color: var(--text-muted); padding: 0.4rem 0.75rem; border-radius: var(--radius-full); font-size: 0.78rem; font-weight: 600; cursor: pointer; white-space: nowrap; transition: all 0.2s;">
+            Shuffle ↺
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Insecurities Interactive Grid Section -->
+    <section class="container" id="explore-insecurities" style="padding-top: 2rem;">
+      <div class="section-header">
+        <span class="section-tag">Interactive Selection</span>
+        <h2 class="section-title">What has been weighing on your heart?</h2>
+        <p class="section-desc">
+          Click any box below to uncover the root causes, explore empowering solutions, and learn to appreciate the strength within you.
+        </p>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="category-tabs" role="tablist" aria-label="Filter Insecurities by Category">
+        <button class="cat-btn active" data-category="all" role="tab">All Insecurities</button>
+        <button class="cat-btn" data-category="body" role="tab">Body & Appearance</button>
+        <button class="cat-btn" data-category="career" role="tab">Career & Ambition</button>
+        <button class="cat-btn" data-category="mindset" role="tab">Mind & Emotions</button>
+        <button class="cat-btn" data-category="relationships" role="tab">Relationships & Life</button>
+      </div>
+
+      <!-- DNA Helix Stage with Pop-Up Boxes Surrounding It One By One -->
+      <div class="dna-helix-stage" id="dna-helix-stage">
+        <!-- Central Vibrant Neon Pink DNA Strand Backbone -->
+        <div class="central-dna-track" aria-hidden="true">
+          <div class="dna-glow-aura"></div>
+          <img src="assets/images/pink_dna_strand.svg" class="central-neon-strand" alt="" />
+          <div class="dna-pulse-beacon"></div>
+        </div>
+
+        <!-- The Surrounding Pop-Up Boxes (Alternating Left & Right) -->
+        <div class="dna-surrounding-grid" id="insecurities-grid">
+          <!-- Rendered dynamically by app.js with connector lines and staggered pop-up animation -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Deep Dive Showcase (Causes, Solutions, Positive Reframing) -->
+    <section class="container deep-dive-section" id="deep-dive-section">
+      <div class="deep-dive-card">
+        <!-- Header -->
+        <div class="deep-dive-header">
+          <div class="deep-dive-header-meta">
+            <span class="deep-dive-badge" id="deep-dive-badge">Self-Image</span>
+            <span class="deep-dive-category" id="deep-dive-category">Body & Appearance</span>
+          </div>
+          <h2 class="deep-dive-title" id="deep-dive-title">Body Shape & Weight Expectations</h2>
+          <p class="deep-dive-hook" id="deep-dive-hook">
+            Worrying about body size, weight fluctuations, softness, or feeling that your physical shape doesn't match ever-shifting cultural aesthetics.
+          </p>
+        </div>
+
+        <!-- Navigation Tabs inside Showcase -->
+        <div class="deep-dive-tabs" role="tablist">
+          <button class="deep-tab-btn active" data-tab="reframe" role="tab">
+            <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+            <span>Positive Reframe & Self-Love</span>
+          </button>
+          <button class="deep-tab-btn" data-tab="causes" role="tab">
+            <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <span>Understanding the Causes</span>
+          </button>
+          <button class="deep-tab-btn" data-tab="solutions" role="tab">
+            <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <span>Actionable Healing Solutions</span>
+          </button>
+        </div>
+
+        <!-- Body / Tab Content -->
+        <div class="deep-dive-body">
+          <div class="tab-panel active" id="panel-reframe">
+            <!-- Dynamically populated -->
+          </div>
+          <div class="tab-panel" id="panel-causes">
+            <!-- Dynamically populated -->
+          </div>
+          <div class="tab-panel" id="panel-solutions">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+
+        <!-- Footer Bridge to Community -->
+        <div class="deep-dive-footer">
+          <div class="deep-dive-footer-text">
+            <strong>You are not alone in this feeling.</strong> Read how other women navigated this insecurity and shared their triumphs.
+          </div>
+          <button class="join-topic-discussion-btn" id="jump-to-discussion-btn">
+            <span>Join Community Discussion on this Topic</span>
+            <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Community Section ("The Sisterhood Circle") -->
+    <section class="container community-section" id="community-section">
+      <div class="section-header">
+        <span class="section-tag">Safe Haven Forum</span>
+        <h2 class="section-title">The Sisterhood Circle</h2>
+        <p class="section-desc">
+          Gather, share your journey, seek gentle advice, and discover how others solved the exact challenges you face. A compassionate space with zero judgment.
+        </p>
+      </div>
+
+      <div class="community-layout">
+        <!-- Sidebar: Safe Space Pledge & Topic Filter -->
+        <aside class="community-sidebar">
+          <div class="safe-pledge-card">
+            <h3 class="pledge-title">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <span>Our Safe Space Pledge</span>
+            </h3>
+            <ul class="pledge-list">
+              <li>
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span><strong>Kindness first:</strong> Every story shared is treated with tenderness and unconditional respect.</span>
+              </li>
+              <li>
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span><strong>No unsolicited criticism:</strong> Share lived perspectives, solutions, and encouragement.</span>
+              </li>
+              <li>
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span><strong>Anonymity respected:</strong> Share under your real name or as a protected gentle alias.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="community-filter-card">
+            <h4 class="sidebar-title">Filter by Topic</h4>
+            <div class="topic-filters-list" id="community-topic-filters">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+        </aside>
+
+        <!-- Main Community Feed & Post Creator -->
+        <div class="community-main">
+          <!-- Create Post Card -->
+          <div class="create-post-card">
+            <div class="create-post-header">
+              <div class="user-avatar-badge">✍️</div>
+              <div>
+                <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--text-main);">Share Your Voice or Wisdom</h3>
+                <p style="font-size: 0.85rem; color: var(--text-muted);">How did you overcome an insecurity? Or what encouragement would you give someone struggling today?</p>
+              </div>
+            </div>
+
+            <form id="create-post-form">
+              <div class="post-fields-grid">
+                <div>
+                  <label for="post-author-name" style="display: block; font-size: 0.82rem; font-weight: 600; margin-bottom: 0.35rem;">Your Name / Nickname</label>
+                  <input type="text" id="post-author-name" class="input-field" placeholder="e.g., Sarah M. (or check anonymous)" />
+                </div>
+                <div>
+                  <label for="post-topic-select" style="display: block; font-size: 0.82rem; font-weight: 600; margin-bottom: 0.35rem;">Topic / Insecurity</label>
+                  <select id="post-topic-select" class="input-field">
+                    <!-- Populated dynamically -->
+                  </select>
+                </div>
+              </div>
+
+              <div>
+                <label for="post-content" style="display: block; font-size: 0.82rem; font-weight: 600; margin-bottom: 0.35rem;">Your Reflection, Story, or Solution</label>
+                <textarea id="post-content" class="post-textarea" placeholder="Speak from your heart... What helped you shift your mindset? What words did you need to hear when you felt this way?" required></textarea>
+              </div>
+
+              <div class="create-post-actions">
+                <label class="anonymous-checkbox-label">
+                  <input type="checkbox" id="post-anonymous-checkbox">
+                  <span>Post with a Gentle Anonymous Alias</span>
+                </label>
+                <button type="submit" class="submit-post-btn">
+                  <span>Post to Sisterhood Circle</span>
+                  <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/></svg>
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <!-- Feed Header & Sort Bar -->
+          <div class="comments-header-bar">
+            <h3 class="comments-count-title" id="comments-count-title">Shared Stories</h3>
+            <div class="sort-options">
+              <button class="sort-btn active" id="sort-recent-btn">Most Recent</button>
+              <button class="sort-btn" id="sort-popular-btn">Most Hugged & Loved</button>
+            </div>
+          </div>
+
+          <!-- Comments Feed -->
+          <div class="comments-feed" id="comments-feed">
+            <!-- Dynamically populated via app.js -->
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Guided 1-Minute Calming Breathing Modal -->
+  <div class="modal-overlay" id="breathing-modal" role="dialog" aria-modal="true" aria-labelledby="breath-modal-title">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="close-breathe-btn" aria-label="Close breathing exercise">
+        <svg width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+
+      <span style="font-size: 0.8rem; font-weight: 700; text-transform: uppercase; color: var(--primary); letter-spacing: 0.08em;">Grounding Moment</span>
+      <h3 id="breath-modal-title" class="serif-font" style="font-size: 1.8rem; margin: 0.4rem 0 0.6rem;">Box Breathing for Calm</h3>
+      <p style="font-size: 0.92rem; color: var(--text-muted); max-width: 380px; margin: 0 auto;">
+        Follow the circle's rhythm. When anxiety whispers self-doubt, breathing brings you home to yourself.
+      </p>
+
+      <div class="breath-circle-container">
+        <div class="breath-circle-outer"></div>
+        <div class="breath-circle" id="breathing-circle">
+          <svg width="32" height="32" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: #FFFFFF;">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+          </svg>
+        </div>
+      </div>
+
+      <div class="breath-instruction-text" id="breathing-instruction">Breathe In Slowly...</div>
+      <div class="breath-timer" id="breathing-timer">60s remaining</div>
+
+      <div style="margin-top: 1.5rem;">
+        <button class="theme-toggle-btn" id="toggle-breath-cycle-btn" style="margin: 0 auto;">Pause Session</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Diverse Women Artwork Modal -->
+  <div class="modal-overlay" id="art-modal" role="dialog" aria-modal="true" aria-labelledby="art-modal-title">
+    <div class="modal-card" style="max-width: 820px; padding: 1.75rem;">
+      <button class="modal-close-btn" id="close-art-modal-btn" aria-label="Close artwork preview">
+        <svg width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+      <div style="border-radius: var(--radius-md); overflow: hidden; margin-bottom: 1.25rem; box-shadow: var(--shadow-card); border: 1px solid var(--border-color);">
+        <img src="assets/images/diverse_women_hero.jpg" alt="Celebrate Every Inch of Yourself - Diverse cartoon women with different body shapes, skin colors, acne and scars" style="width: 100%; height: auto; display: block;" />
+      </div>
+      <span style="font-size: 0.8rem; font-weight: 700; text-transform: uppercase; color: var(--primary); letter-spacing: 0.08em;">Celebration of Inclusivity</span>
+      <h3 id="art-modal-title" class="serif-font" style="font-size: 1.6rem; margin: 0.35rem 0 0.5rem;">Celebrate Every Inch of Yourself</h3>
+      <p style="font-size: 0.95rem; color: var(--text-muted); line-height: 1.6; max-width: 650px; margin: 0 auto;">
+        Every body shape, skin shade, facial blemish, stretch mark, and healing scar carries real lived beauty, strength, and life. You do not need to hide what makes you human.
+      </p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="#hero" class="brand-logo" style="margin-bottom: 0.75rem;">
+            <div class="brand-logo-icon">
+              <svg width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+              </svg>
+            </div>
+            <span class="brand-logo-text">Embrace<span>Her</span></span>
+          </a>
+          <p class="footer-brand-desc">
+            An open, compassionate digital sanctuary created to dismantle societal pressures, celebrate diverse beauty, and empower women to love and appreciate themselves unconditionally.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-column-title">Explore Pillars</h4>
+          <ul class="footer-links">
+            <li><a href="#explore-insecurities" class="footer-link">Body & Appearance</a></li>
+            <li><a href="#explore-insecurities" class="footer-link">Career & Ambition</a></li>
+            <li><a href="#explore-insecurities" class="footer-link">Mind & Boundaries</a></li>
+            <li><a href="#explore-insecurities" class="footer-link">Relationships & Life</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-column-title">Safe Haven</h4>
+          <ul class="footer-links">
+            <li><a href="#community-section" class="footer-link">Sisterhood Circle</a></li>
+            <li><a href="#hero" class="footer-link">Daily Affirmations</a></li>
+            <li><a href="javascript:void(0)" onclick="document.getElementById('open-breathe-btn').click();" class="footer-link">1-Min Breathing SOS</a></li>
+            <li><a href="#explore-insecurities" class="footer-link">Kindness Journal</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2026 EmbraceHer Platform. Crafted with love, respect, and solidarity for women everywhere.
+        </div>
+        <div style="font-size: 0.8rem; color: var(--text-light);">
+          Always remember: You are enough, exactly as you are.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
