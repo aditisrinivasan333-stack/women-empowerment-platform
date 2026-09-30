@@ -1,0 +1,437 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 1800" width="110" height="1800" fill="none">
+  <defs>
+    <!-- High-voltage Neon Pink Gradients -->
+    <linearGradient id="neonPinkOuter" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FF007F"/>
+      <stop offset="25%" stop-color="#FF1493"/>
+      <stop offset="50%" stop-color="#FF0055"/>
+      <stop offset="75%" stop-color="#FF2A85"/>
+      <stop offset="100%" stop-color="#FF007F"/>
+    </linearGradient>
+
+    <linearGradient id="neonRungGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF007F"/>
+      <stop offset="50%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FF0055"/>
+    </linearGradient>
+
+    <radialGradient id="neonNodeGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="45%" stop-color="#FF3399"/>
+      <stop offset="85%" stop-color="#FF007F"/>
+      <stop offset="100%" stop-color="#C2005A"/>
+    </radialGradient>
+
+    <!-- Intense Multi-Stage Neon Glow Filter -->
+    <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur1"/>
+      <feGaussianBlur stdDeviation="3" result="coloredBlur2"/>
+      <feGaussianBlur stdDeviation="1" result="coloredBlur3"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur1"/>
+        <feMergeNode in="coloredBlur2"/>
+        <feMergeNode in="coloredBlur3"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="neonGlowSmall" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g class="neon-dna-system">
+    <!-- Connecting Base Pairs -->
+  <line x1="75.0" y1="18" x2="35.0" y2="18" stroke="url(#neonRungGrad)" stroke-width="2.8" stroke-linecap="round" opacity="0.94" filter="url(#neonGlowSmall)"/>
+  <circle cx="75.0" cy="18" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="35.0" cy="18" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="75.0" cy="18" r="1.8" fill="#FFFFFF"/>
+  <circle cx="35.0" cy="18" r="1.8" fill="#FFFFFF"/>
+  <line x1="88.8" y1="42" x2="21.2" y2="42" stroke="url(#neonRungGrad)" stroke-width="2.3" stroke-linecap="round" opacity="0.73" filter="url(#neonGlowSmall)"/>
+  <circle cx="88.8" cy="42" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="21.2" cy="42" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="88.8" cy="42" r="1.8" fill="#FFFFFF"/>
+  <circle cx="21.2" cy="42" r="1.8" fill="#FFFFFF"/>
+  <line x1="80.3" y1="66" x2="29.7" y2="66" stroke="url(#neonRungGrad)" stroke-width="2.7" stroke-linecap="round" opacity="0.90" filter="url(#neonGlowSmall)"/>
+  <circle cx="80.3" cy="66" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="29.7" cy="66" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="80.3" cy="66" r="1.8" fill="#FFFFFF"/>
+  <circle cx="29.7" cy="66" r="1.8" fill="#FFFFFF"/>
+  <line x1="55.0" y1="90" x2="55.0" y2="90" stroke="url(#neonRungGrad)" stroke-width="3.0" stroke-linecap="round" opacity="1.00" filter="url(#neonGlowSmall)"/>
+  <circle cx="55.0" cy="90" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="55.0" cy="90" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="55.0" cy="90" r="1.8" fill="#FFFFFF"/>
+  <circle cx="55.0" cy="90" r="1.8" fill="#FFFFFF"/>
+  <line x1="29.7" y1="114" x2="80.3" y2="114" stroke="url(#neonRungGrad)" stroke-width="2.7" stroke-linecap="round" opacity="0.90" filter="url(#neonGlowSmall)"/>
+  <circle cx="29.7" cy="114" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="80.3" cy="114" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="29.7" cy="114" r="1.8" fill="#FFFFFF"/>
+  <circle cx="80.3" cy="114" r="1.8" fill="#FFFFFF"/>
+  <line x1="21.2" y1="138" x2="88.8" y2="138" stroke="url(#neonRungGrad)" stroke-width="2.3" stroke-linecap="round" opacity="0.73" filter="url(#neonGlowSmall)"/>
+  <circle cx="21.2" cy="138" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="88.8" cy="138" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="21.2" cy="138" r="1.8" fill="#FFFFFF"/>
+  <circle cx="88.8" cy="138" r="1.8" fill="#FFFFFF"/>
+  <line x1="35.0" y1="162" x2="75.0" y2="162" stroke="url(#neonRungGrad)" stroke-width="2.8" stroke-linecap="round" opacity="0.94" filter="url(#neonGlowSmall)"/>
+  <circle cx="35.0" cy="162" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="75.0" cy="162" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="35.0" cy="162" r="1.8" fill="#FFFFFF"/>
+  <circle cx="75.0" cy="162" r="1.8" fill="#FFFFFF"/>
+  <line x1="62.1" y1="186" x2="47.9" y2="186" stroke="url(#neonRungGrad)" stroke-width="3.0" stroke-linecap="round" opacity="0.99" filter="url(#neonGlowSmall)"/>
+  <circle cx="62.1" cy="186" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="47.9" cy="186" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="62.1" cy="186" r="1.8" fill="#FFFFFF"/>
+  <circle cx="47.9" cy="186" r="1.8" fill="#FFFFFF"/>
+  <line x1="84.4" y1="210" x2="25.6" y2="210" stroke="url(#neonRungGrad)" stroke-width="2.6" stroke-linecap="round" opacity="0.85" filter="url(#neonGlowSmall)"/>
+  <circle cx="84.4" cy="210" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="25.6" cy="210" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="84.4" cy="210" r="1.8" fill="#FFFFFF"/>
+  <circle cx="25.6" cy="210" r="1.8" fill="#FFFFFF"/>
+  <line x1="87.3" y1="234" x2="22.7" y2="234" stroke="url(#neonRungGrad)" stroke-width="2.4" stroke-linecap="round" opacity="0.79" filter="url(#neonGlowSmall)"/>
+  <circle cx="87.3" cy="234" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="22.7" cy="234" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="87.3" cy="234" r="1.8" fill="#FFFFFF"/>
+  <circle cx="22.7" cy="234" r="1.8" fill="#FFFFFF"/>
+  <line x1="68.8" y1="258" x2="41.2" y2="258" stroke="url(#neonRungGrad)" stroke-width="2.9" stroke-linecap="round" opacity="0.97" filter="url(#neonGlowSmall)"/>
+  <circle cx="68.8" cy="258" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="41.2" cy="258" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="68.8" cy="258" r="1.8" fill="#FFFFFF"/>
+  <circle cx="41.2" cy="258" r="1.8" fill="#FFFFFF"/>
+  <line x1="41.2" y1="282" x2="68.8" y2="282" stroke="url(#neonRungGrad)" stroke-width="2.9" stroke-linecap="round" opacity="0.97" filter="url(#neonGlowSmall)"/>
+  <circle cx="41.2" cy="282" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="68.8" cy="282" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="41.2" cy="282" r="1.8" fill="#FFFFFF"/>
+  <circle cx="68.8" cy="282" r="1.8" fill="#FFFFFF"/>
+  <line x1="22.7" y1="306" x2="87.3" y2="306" stroke="url(#neonRungGrad)" stroke-width="2.4" stroke-linecap="round" opacity="0.79" filter="url(#neonGlowSmall)"/>
+  <circle cx="22.7" cy="306" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="87.3" cy="306" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="22.7" cy="306" r="1.8" fill="#FFFFFF"/>
+  <circle cx="87.3" cy="306" r="1.8" fill="#FFFFFF"/>
+  <line x1="25.6" y1="330" x2="84.4" y2="330" stroke="url(#neonRungGrad)" stroke-width="2.6" stroke-linecap="round" opacity="0.85" filter="url(#neonGlowSmall)"/>
+  <circle cx="25.6" cy="330" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="84.4" cy="330" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="25.6" cy="330" r="1.8" fill="#FFFFFF"/>
+  <circle cx="84.4" cy="330" r="1.8" fill="#FFFFFF"/>
+  <line x1="47.9" y1="354" x2="62.1" y2="354" stroke="url(#neonRungGrad)" stroke-width="3.0" stroke-linecap="round" opacity="0.99" filter="url(#neonGlowSmall)"/>
+  <circle cx="47.9" cy="354" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="62.1" cy="354" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="47.9" cy="354" r="1.8" fill="#FFFFFF"/>
+  <circle cx="62.1" cy="354" r="1.8" fill="#FFFFFF"/>
+  <line x1="75.0" y1="378" x2="35.0" y2="378" stroke="url(#neonRungGrad)" stroke-width="2.8" stroke-linecap="round" opacity="0.94" filter="url(#neonGlowSmall)"/>
+  <circle cx="75.0" cy="378" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="35.0" cy="378" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="75.0" cy="378" r="1.8" fill="#FFFFFF"/>
+  <circle cx="35.0" cy="378" r="1.8" fill="#FFFFFF"/>
+  <line x1="88.8" y1="402" x2="21.2" y2="402" stroke="url(#neonRungGrad)" stroke-width="2.3" stroke-linecap="round" opacity="0.73" filter="url(#neonGlowSmall)"/>
+  <circle cx="88.8" cy="402" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="21.2" cy="402" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="88.8" cy="402" r="1.8" fill="#FFFFFF"/>
+  <circle cx="21.2" cy="402" r="1.8" fill="#FFFFFF"/>
+  <line x1="80.3" y1="426" x2="29.7" y2="426" stroke="url(#neonRungGrad)" stroke-width="2.7" stroke-linecap="round" opacity="0.90" filter="url(#neonGlowSmall)"/>
+  <circle cx="80.3" cy="426" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="29.7" cy="426" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="80.3" cy="426" r="1.8" fill="#FFFFFF"/>
+  <circle cx="29.7" cy="426" r="1.8" fill="#FFFFFF"/>
+  <line x1="55.0" y1="450" x2="55.0" y2="450" stroke="url(#neonRungGrad)" stroke-width="3.0" stroke-linecap="round" opacity="1.00" filter="url(#neonGlowSmall)"/>
+  <circle cx="55.0" cy="450" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="55.0" cy="450" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="55.0" cy="450" r="1.8" fill="#FFFFFF"/>
+  <circle cx="55.0" cy="450" r="1.8" fill="#FFFFFF"/>
+  <line x1="29.7" y1="474" x2="80.3" y2="474" stroke="url(#neonRungGrad)" stroke-width="2.7" stroke-linecap="round" opacity="0.90" filter="url(#neonGlowSmall)"/>
+  <circle cx="29.7" cy="474" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="80.3" cy="474" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="29.7" cy="474" r="1.8" fill="#FFFFFF"/>
+  <circle cx="80.3" cy="474" r="1.8" fill="#FFFFFF"/>
+  <line x1="21.2" y1="498" x2="88.8" y2="498" stroke="url(#neonRungGrad)" stroke-width="2.3" stroke-linecap="round" opacity="0.73" filter="url(#neonGlowSmall)"/>
+  <circle cx="21.2" cy="498" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="88.8" cy="498" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="21.2" cy="498" r="1.8" fill="#FFFFFF"/>
+  <circle cx="88.8" cy="498" r="1.8" fill="#FFFFFF"/>
+  <line x1="35.0" y1="522" x2="75.0" y2="522" stroke="url(#neonRungGrad)" stroke-width="2.8" stroke-linecap="round" opacity="0.94" filter="url(#neonGlowSmall)"/>
+  <circle cx="35.0" cy="522" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="75.0" cy="522" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="35.0" cy="522" r="1.8" fill="#FFFFFF"/>
+  <circle cx="75.0" cy="522" r="1.8" fill="#FFFFFF"/>
+  <line x1="62.1" y1="546" x2="47.9" y2="546" stroke="url(#neonRungGrad)" stroke-width="3.0" stroke-linecap="round" opacity="0.99" filter="url(#neonGlowSmall)"/>
+  <circle cx="62.1" cy="546" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="47.9" cy="546" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="62.1" cy="546" r="1.8" fill="#FFFFFF"/>
+  <circle cx="47.9" cy="546" r="1.8" fill="#FFFFFF"/>
+  <line x1="84.4" y1="570" x2="25.6" y2="570" stroke="url(#neonRungGrad)" stroke-width="2.6" stroke-linecap="round" opacity="0.85" filter="url(#neonGlowSmall)"/>
+  <circle cx="84.4" cy="570" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="25.6" cy="570" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="84.4" cy="570" r="1.8" fill="#FFFFFF"/>
+  <circle cx="25.6" cy="570" r="1.8" fill="#FFFFFF"/>
+  <line x1="87.3" y1="594" x2="22.7" y2="594" stroke="url(#neonRungGrad)" stroke-width="2.4" stroke-linecap="round" opacity="0.79" filter="url(#neonGlowSmall)"/>
+  <circle cx="87.3" cy="594" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="22.7" cy="594" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="87.3" cy="594" r="1.8" fill="#FFFFFF"/>
+  <circle cx="22.7" cy="594" r="1.8" fill="#FFFFFF"/>
+  <line x1="68.8" y1="618" x2="41.2" y2="618" stroke="url(#neonRungGrad)" stroke-width="2.9" stroke-linecap="round" opacity="0.97" filter="url(#neonGlowSmall)"/>
+  <circle cx="68.8" cy="618" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="41.2" cy="618" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="68.8" cy="618" r="1.8" fill="#FFFFFF"/>
+  <circle cx="41.2" cy="618" r="1.8" fill="#FFFFFF"/>
+  <line x1="41.2" y1="642" x2="68.8" y2="642" stroke="url(#neonRungGrad)" stroke-width="2.9" stroke-linecap="round" opacity="0.97" filter="url(#neonGlowSmall)"/>
+  <circle cx="41.2" cy="642" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="68.8" cy="642" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="41.2" cy="642" r="1.8" fill="#FFFFFF"/>
+  <circle cx="68.8" cy="642" r="1.8" fill="#FFFFFF"/>
+  <line x1="22.7" y1="666" x2="87.3" y2="666" stroke="url(#neonRungGrad)" stroke-width="2.4" stroke-linecap="round" opacity="0.79" filter="url(#neonGlowSmall)"/>
+  <circle cx="22.7" cy="666" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="87.3" cy="666" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="22.7" cy="666" r="1.8" fill="#FFFFFF"/>
+  <circle cx="87.3" cy="666" r="1.8" fill="#FFFFFF"/>
+  <line x1="25.6" y1="690" x2="84.4" y2="690" stroke="url(#neonRungGrad)" stroke-width="2.6" stroke-linecap="round" opacity="0.85" filter="url(#neonGlowSmall)"/>
+  <circle cx="25.6" cy="690" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="84.4" cy="690" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="25.6" cy="690" r="1.8" fill="#FFFFFF"/>
+  <circle cx="84.4" cy="690" r="1.8" fill="#FFFFFF"/>
+  <line x1="47.9" y1="714" x2="62.1" y2="714" stroke="url(#neonRungGrad)" stroke-width="3.0" stroke-linecap="round" opacity="0.99" filter="url(#neonGlowSmall)"/>
+  <circle cx="47.9" cy="714" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="62.1" cy="714" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="47.9" cy="714" r="1.8" fill="#FFFFFF"/>
+  <circle cx="62.1" cy="714" r="1.8" fill="#FFFFFF"/>
+  <line x1="75.0" y1="738" x2="35.0" y2="738" stroke="url(#neonRungGrad)" stroke-width="2.8" stroke-linecap="round" opacity="0.94" filter="url(#neonGlowSmall)"/>
+  <circle cx="75.0" cy="738" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="35.0" cy="738" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="75.0" cy="738" r="1.8" fill="#FFFFFF"/>
+  <circle cx="35.0" cy="738" r="1.8" fill="#FFFFFF"/>
+  <line x1="88.8" y1="762" x2="21.2" y2="762" stroke="url(#neonRungGrad)" stroke-width="2.3" stroke-linecap="round" opacity="0.73" filter="url(#neonGlowSmall)"/>
+  <circle cx="88.8" cy="762" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="21.2" cy="762" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="88.8" cy="762" r="1.8" fill="#FFFFFF"/>
+  <circle cx="21.2" cy="762" r="1.8" fill="#FFFFFF"/>
+  <line x1="80.3" y1="786" x2="29.7" y2="786" stroke="url(#neonRungGrad)" stroke-width="2.7" stroke-linecap="round" opacity="0.90" filter="url(#neonGlowSmall)"/>
+  <circle cx="80.3" cy="786" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="29.7" cy="786" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="80.3" cy="786" r="1.8" fill="#FFFFFF"/>
+  <circle cx="29.7" cy="786" r="1.8" fill="#FFFFFF"/>
+  <line x1="55.0" y1="810" x2="55.0" y2="810" stroke="url(#neonRungGrad)" stroke-width="3.0" stroke-linecap="round" opacity="1.00" filter="url(#neonGlowSmall)"/>
+  <circle cx="55.0" cy="810" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="55.0" cy="810" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="55.0" cy="810" r="1.8" fill="#FFFFFF"/>
+  <circle cx="55.0" cy="810" r="1.8" fill="#FFFFFF"/>
+  <line x1="29.7" y1="834" x2="80.3" y2="834" stroke="url(#neonRungGrad)" stroke-width="2.7" stroke-linecap="round" opacity="0.90" filter="url(#neonGlowSmall)"/>
+  <circle cx="29.7" cy="834" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="80.3" cy="834" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="29.7" cy="834" r="1.8" fill="#FFFFFF"/>
+  <circle cx="80.3" cy="834" r="1.8" fill="#FFFFFF"/>
+  <line x1="21.2" y1="858" x2="88.8" y2="858" stroke="url(#neonRungGrad)" stroke-width="2.3" stroke-linecap="round" opacity="0.73" filter="url(#neonGlowSmall)"/>
+  <circle cx="21.2" cy="858" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="88.8" cy="858" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="21.2" cy="858" r="1.8" fill="#FFFFFF"/>
+  <circle cx="88.8" cy="858" r="1.8" fill="#FFFFFF"/>
+  <line x1="35.0" y1="882" x2="75.0" y2="882" stroke="url(#neonRungGrad)" stroke-width="2.8" stroke-linecap="round" opacity="0.94" filter="url(#neonGlowSmall)"/>
+  <circle cx="35.0" cy="882" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="75.0" cy="882" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="35.0" cy="882" r="1.8" fill="#FFFFFF"/>
+  <circle cx="75.0" cy="882" r="1.8" fill="#FFFFFF"/>
+  <line x1="62.1" y1="906" x2="47.9" y2="906" stroke="url(#neonRungGrad)" stroke-width="3.0" stroke-linecap="round" opacity="0.99" filter="url(#neonGlowSmall)"/>
+  <circle cx="62.1" cy="906" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="47.9" cy="906" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="62.1" cy="906" r="1.8" fill="#FFFFFF"/>
+  <circle cx="47.9" cy="906" r="1.8" fill="#FFFFFF"/>
+  <line x1="84.4" y1="930" x2="25.6" y2="930" stroke="url(#neonRungGrad)" stroke-width="2.6" stroke-linecap="round" opacity="0.85" filter="url(#neonGlowSmall)"/>
+  <circle cx="84.4" cy="930" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="25.6" cy="930" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="84.4" cy="930" r="1.8" fill="#FFFFFF"/>
+  <circle cx="25.6" cy="930" r="1.8" fill="#FFFFFF"/>
+  <line x1="87.3" y1="954" x2="22.7" y2="954" stroke="url(#neonRungGrad)" stroke-width="2.4" stroke-linecap="round" opacity="0.79" filter="url(#neonGlowSmall)"/>
+  <circle cx="87.3" cy="954" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="22.7" cy="954" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="87.3" cy="954" r="1.8" fill="#FFFFFF"/>
+  <circle cx="22.7" cy="954" r="1.8" fill="#FFFFFF"/>
+  <line x1="68.8" y1="978" x2="41.2" y2="978" stroke="url(#neonRungGrad)" stroke-width="2.9" stroke-linecap="round" opacity="0.97" filter="url(#neonGlowSmall)"/>
+  <circle cx="68.8" cy="978" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="41.2" cy="978" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="68.8" cy="978" r="1.8" fill="#FFFFFF"/>
+  <circle cx="41.2" cy="978" r="1.8" fill="#FFFFFF"/>
+  <line x1="41.2" y1="1002" x2="68.8" y2="1002" stroke="url(#neonRungGrad)" stroke-width="2.9" stroke-linecap="round" opacity="0.97" filter="url(#neonGlowSmall)"/>
+  <circle cx="41.2" cy="1002" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="68.8" cy="1002" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="41.2" cy="1002" r="1.8" fill="#FFFFFF"/>
+  <circle cx="68.8" cy="1002" r="1.8" fill="#FFFFFF"/>
+  <line x1="22.7" y1="1026" x2="87.3" y2="1026" stroke="url(#neonRungGrad)" stroke-width="2.4" stroke-linecap="round" opacity="0.79" filter="url(#neonGlowSmall)"/>
+  <circle cx="22.7" cy="1026" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="87.3" cy="1026" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="22.7" cy="1026" r="1.8" fill="#FFFFFF"/>
+  <circle cx="87.3" cy="1026" r="1.8" fill="#FFFFFF"/>
+  <line x1="25.6" y1="1050" x2="84.4" y2="1050" stroke="url(#neonRungGrad)" stroke-width="2.6" stroke-linecap="round" opacity="0.85" filter="url(#neonGlowSmall)"/>
+  <circle cx="25.6" cy="1050" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="84.4" cy="1050" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="25.6" cy="1050" r="1.8" fill="#FFFFFF"/>
+  <circle cx="84.4" cy="1050" r="1.8" fill="#FFFFFF"/>
+  <line x1="47.9" y1="1074" x2="62.1" y2="1074" stroke="url(#neonRungGrad)" stroke-width="3.0" stroke-linecap="round" opacity="0.99" filter="url(#neonGlowSmall)"/>
+  <circle cx="47.9" cy="1074" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="62.1" cy="1074" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="47.9" cy="1074" r="1.8" fill="#FFFFFF"/>
+  <circle cx="62.1" cy="1074" r="1.8" fill="#FFFFFF"/>
+  <line x1="75.0" y1="1098" x2="35.0" y2="1098" stroke="url(#neonRungGrad)" stroke-width="2.8" stroke-linecap="round" opacity="0.94" filter="url(#neonGlowSmall)"/>
+  <circle cx="75.0" cy="1098" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="35.0" cy="1098" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="75.0" cy="1098" r="1.8" fill="#FFFFFF"/>
+  <circle cx="35.0" cy="1098" r="1.8" fill="#FFFFFF"/>
+  <line x1="88.8" y1="1122" x2="21.2" y2="1122" stroke="url(#neonRungGrad)" stroke-width="2.3" stroke-linecap="round" opacity="0.73" filter="url(#neonGlowSmall)"/>
+  <circle cx="88.8" cy="1122" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="21.2" cy="1122" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="88.8" cy="1122" r="1.8" fill="#FFFFFF"/>
+  <circle cx="21.2" cy="1122" r="1.8" fill="#FFFFFF"/>
+  <line x1="80.3" y1="1146" x2="29.7" y2="1146" stroke="url(#neonRungGrad)" stroke-width="2.7" stroke-linecap="round" opacity="0.90" filter="url(#neonGlowSmall)"/>
+  <circle cx="80.3" cy="1146" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="29.7" cy="1146" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="80.3" cy="1146" r="1.8" fill="#FFFFFF"/>
+  <circle cx="29.7" cy="1146" r="1.8" fill="#FFFFFF"/>
+  <line x1="55.0" y1="1170" x2="55.0" y2="1170" stroke="url(#neonRungGrad)" stroke-width="3.0" stroke-linecap="round" opacity="1.00" filter="url(#neonGlowSmall)"/>
+  <circle cx="55.0" cy="1170" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="55.0" cy="1170" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="55.0" cy="1170" r="1.8" fill="#FFFFFF"/>
+  <circle cx="55.0" cy="1170" r="1.8" fill="#FFFFFF"/>
+  <line x1="29.7" y1="1194" x2="80.3" y2="1194" stroke="url(#neonRungGrad)" stroke-width="2.7" stroke-linecap="round" opacity="0.90" filter="url(#neonGlowSmall)"/>
+  <circle cx="29.7" cy="1194" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="80.3" cy="1194" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="29.7" cy="1194" r="1.8" fill="#FFFFFF"/>
+  <circle cx="80.3" cy="1194" r="1.8" fill="#FFFFFF"/>
+  <line x1="21.2" y1="1218" x2="88.8" y2="1218" stroke="url(#neonRungGrad)" stroke-width="2.3" stroke-linecap="round" opacity="0.73" filter="url(#neonGlowSmall)"/>
+  <circle cx="21.2" cy="1218" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="88.8" cy="1218" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="21.2" cy="1218" r="1.8" fill="#FFFFFF"/>
+  <circle cx="88.8" cy="1218" r="1.8" fill="#FFFFFF"/>
+  <line x1="35.0" y1="1242" x2="75.0" y2="1242" stroke="url(#neonRungGrad)" stroke-width="2.8" stroke-linecap="round" opacity="0.94" filter="url(#neonGlowSmall)"/>
+  <circle cx="35.0" cy="1242" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="75.0" cy="1242" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="35.0" cy="1242" r="1.8" fill="#FFFFFF"/>
+  <circle cx="75.0" cy="1242" r="1.8" fill="#FFFFFF"/>
+  <line x1="62.1" y1="1266" x2="47.9" y2="1266" stroke="url(#neonRungGrad)" stroke-width="3.0" stroke-linecap="round" opacity="0.99" filter="url(#neonGlowSmall)"/>
+  <circle cx="62.1" cy="1266" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="47.9" cy="1266" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="62.1" cy="1266" r="1.8" fill="#FFFFFF"/>
+  <circle cx="47.9" cy="1266" r="1.8" fill="#FFFFFF"/>
+  <line x1="84.4" y1="1290" x2="25.6" y2="1290" stroke="url(#neonRungGrad)" stroke-width="2.6" stroke-linecap="round" opacity="0.85" filter="url(#neonGlowSmall)"/>
+  <circle cx="84.4" cy="1290" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="25.6" cy="1290" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="84.4" cy="1290" r="1.8" fill="#FFFFFF"/>
+  <circle cx="25.6" cy="1290" r="1.8" fill="#FFFFFF"/>
+  <line x1="87.3" y1="1314" x2="22.7" y2="1314" stroke="url(#neonRungGrad)" stroke-width="2.4" stroke-linecap="round" opacity="0.79" filter="url(#neonGlowSmall)"/>
+  <circle cx="87.3" cy="1314" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="22.7" cy="1314" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="87.3" cy="1314" r="1.8" fill="#FFFFFF"/>
+  <circle cx="22.7" cy="1314" r="1.8" fill="#FFFFFF"/>
+  <line x1="68.8" y1="1338" x2="41.2" y2="1338" stroke="url(#neonRungGrad)" stroke-width="2.9" stroke-linecap="round" opacity="0.97" filter="url(#neonGlowSmall)"/>
+  <circle cx="68.8" cy="1338" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="41.2" cy="1338" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="68.8" cy="1338" r="1.8" fill="#FFFFFF"/>
+  <circle cx="41.2" cy="1338" r="1.8" fill="#FFFFFF"/>
+  <line x1="41.2" y1="1362" x2="68.8" y2="1362" stroke="url(#neonRungGrad)" stroke-width="2.9" stroke-linecap="round" opacity="0.97" filter="url(#neonGlowSmall)"/>
+  <circle cx="41.2" cy="1362" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="68.8" cy="1362" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="41.2" cy="1362" r="1.8" fill="#FFFFFF"/>
+  <circle cx="68.8" cy="1362" r="1.8" fill="#FFFFFF"/>
+  <line x1="22.7" y1="1386" x2="87.3" y2="1386" stroke="url(#neonRungGrad)" stroke-width="2.4" stroke-linecap="round" opacity="0.79" filter="url(#neonGlowSmall)"/>
+  <circle cx="22.7" cy="1386" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="87.3" cy="1386" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="22.7" cy="1386" r="1.8" fill="#FFFFFF"/>
+  <circle cx="87.3" cy="1386" r="1.8" fill="#FFFFFF"/>
+  <line x1="25.6" y1="1410" x2="84.4" y2="1410" stroke="url(#neonRungGrad)" stroke-width="2.6" stroke-linecap="round" opacity="0.85" filter="url(#neonGlowSmall)"/>
+  <circle cx="25.6" cy="1410" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="84.4" cy="1410" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="25.6" cy="1410" r="1.8" fill="#FFFFFF"/>
+  <circle cx="84.4" cy="1410" r="1.8" fill="#FFFFFF"/>
+  <line x1="47.9" y1="1434" x2="62.1" y2="1434" stroke="url(#neonRungGrad)" stroke-width="3.0" stroke-linecap="round" opacity="0.99" filter="url(#neonGlowSmall)"/>
+  <circle cx="47.9" cy="1434" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="62.1" cy="1434" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="47.9" cy="1434" r="1.8" fill="#FFFFFF"/>
+  <circle cx="62.1" cy="1434" r="1.8" fill="#FFFFFF"/>
+  <line x1="75.0" y1="1458" x2="35.0" y2="1458" stroke="url(#neonRungGrad)" stroke-width="2.8" stroke-linecap="round" opacity="0.94" filter="url(#neonGlowSmall)"/>
+  <circle cx="75.0" cy="1458" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="35.0" cy="1458" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="75.0" cy="1458" r="1.8" fill="#FFFFFF"/>
+  <circle cx="35.0" cy="1458" r="1.8" fill="#FFFFFF"/>
+  <line x1="88.8" y1="1482" x2="21.2" y2="1482" stroke="url(#neonRungGrad)" stroke-width="2.3" stroke-linecap="round" opacity="0.73" filter="url(#neonGlowSmall)"/>
+  <circle cx="88.8" cy="1482" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="21.2" cy="1482" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="88.8" cy="1482" r="1.8" fill="#FFFFFF"/>
+  <circle cx="21.2" cy="1482" r="1.8" fill="#FFFFFF"/>
+  <line x1="80.3" y1="1506" x2="29.7" y2="1506" stroke="url(#neonRungGrad)" stroke-width="2.7" stroke-linecap="round" opacity="0.90" filter="url(#neonGlowSmall)"/>
+  <circle cx="80.3" cy="1506" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="29.7" cy="1506" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="80.3" cy="1506" r="1.8" fill="#FFFFFF"/>
+  <circle cx="29.7" cy="1506" r="1.8" fill="#FFFFFF"/>
+  <line x1="55.0" y1="1530" x2="55.0" y2="1530" stroke="url(#neonRungGrad)" stroke-width="3.0" stroke-linecap="round" opacity="1.00" filter="url(#neonGlowSmall)"/>
+  <circle cx="55.0" cy="1530" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="55.0" cy="1530" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="55.0" cy="1530" r="1.8" fill="#FFFFFF"/>
+  <circle cx="55.0" cy="1530" r="1.8" fill="#FFFFFF"/>
+  <line x1="29.7" y1="1554" x2="80.3" y2="1554" stroke="url(#neonRungGrad)" stroke-width="2.7" stroke-linecap="round" opacity="0.90" filter="url(#neonGlowSmall)"/>
+  <circle cx="29.7" cy="1554" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="80.3" cy="1554" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="29.7" cy="1554" r="1.8" fill="#FFFFFF"/>
+  <circle cx="80.3" cy="1554" r="1.8" fill="#FFFFFF"/>
+  <line x1="21.2" y1="1578" x2="88.8" y2="1578" stroke="url(#neonRungGrad)" stroke-width="2.3" stroke-linecap="round" opacity="0.73" filter="url(#neonGlowSmall)"/>
+  <circle cx="21.2" cy="1578" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="88.8" cy="1578" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="21.2" cy="1578" r="1.8" fill="#FFFFFF"/>
+  <circle cx="88.8" cy="1578" r="1.8" fill="#FFFFFF"/>
+  <line x1="35.0" y1="1602" x2="75.0" y2="1602" stroke="url(#neonRungGrad)" stroke-width="2.8" stroke-linecap="round" opacity="0.94" filter="url(#neonGlowSmall)"/>
+  <circle cx="35.0" cy="1602" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="75.0" cy="1602" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="35.0" cy="1602" r="1.8" fill="#FFFFFF"/>
+  <circle cx="75.0" cy="1602" r="1.8" fill="#FFFFFF"/>
+  <line x1="62.1" y1="1626" x2="47.9" y2="1626" stroke="url(#neonRungGrad)" stroke-width="3.0" stroke-linecap="round" opacity="0.99" filter="url(#neonGlowSmall)"/>
+  <circle cx="62.1" cy="1626" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="47.9" cy="1626" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="62.1" cy="1626" r="1.8" fill="#FFFFFF"/>
+  <circle cx="47.9" cy="1626" r="1.8" fill="#FFFFFF"/>
+  <line x1="84.4" y1="1650" x2="25.6" y2="1650" stroke="url(#neonRungGrad)" stroke-width="2.6" stroke-linecap="round" opacity="0.85" filter="url(#neonGlowSmall)"/>
+  <circle cx="84.4" cy="1650" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="25.6" cy="1650" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="84.4" cy="1650" r="1.8" fill="#FFFFFF"/>
+  <circle cx="25.6" cy="1650" r="1.8" fill="#FFFFFF"/>
+  <line x1="87.3" y1="1674" x2="22.7" y2="1674" stroke="url(#neonRungGrad)" stroke-width="2.4" stroke-linecap="round" opacity="0.79" filter="url(#neonGlowSmall)"/>
+  <circle cx="87.3" cy="1674" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="22.7" cy="1674" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="87.3" cy="1674" r="1.8" fill="#FFFFFF"/>
+  <circle cx="22.7" cy="1674" r="1.8" fill="#FFFFFF"/>
+  <line x1="68.8" y1="1698" x2="41.2" y2="1698" stroke="url(#neonRungGrad)" stroke-width="2.9" stroke-linecap="round" opacity="0.97" filter="url(#neonGlowSmall)"/>
+  <circle cx="68.8" cy="1698" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="41.2" cy="1698" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="68.8" cy="1698" r="1.8" fill="#FFFFFF"/>
+  <circle cx="41.2" cy="1698" r="1.8" fill="#FFFFFF"/>
+  <line x1="41.2" y1="1722" x2="68.8" y2="1722" stroke="url(#neonRungGrad)" stroke-width="2.9" stroke-linecap="round" opacity="0.97" filter="url(#neonGlowSmall)"/>
+  <circle cx="41.2" cy="1722" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="68.8" cy="1722" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="41.2" cy="1722" r="1.8" fill="#FFFFFF"/>
+  <circle cx="68.8" cy="1722" r="1.8" fill="#FFFFFF"/>
+  <line x1="22.7" y1="1746" x2="87.3" y2="1746" stroke="url(#neonRungGrad)" stroke-width="2.4" stroke-linecap="round" opacity="0.79" filter="url(#neonGlowSmall)"/>
+  <circle cx="22.7" cy="1746" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="87.3" cy="1746" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="22.7" cy="1746" r="1.8" fill="#FFFFFF"/>
+  <circle cx="87.3" cy="1746" r="1.8" fill="#FFFFFF"/>
+  <line x1="25.6" y1="1770" x2="84.4" y2="1770" stroke="url(#neonRungGrad)" stroke-width="2.6" stroke-linecap="round" opacity="0.85" filter="url(#neonGlowSmall)"/>
+  <circle cx="25.6" cy="1770" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="84.4" cy="1770" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="25.6" cy="1770" r="1.8" fill="#FFFFFF"/>
+  <circle cx="84.4" cy="1770" r="1.8" fill="#FFFFFF"/>
+  <line x1="47.9" y1="1794" x2="62.1" y2="1794" stroke="url(#neonRungGrad)" stroke-width="3.0" stroke-linecap="round" opacity="0.99" filter="url(#neonGlowSmall)"/>
+  <circle cx="47.9" cy="1794" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="62.1" cy="1794" r="4.5" fill="url(#neonNodeGrad)" filter="url(#neonGlow)"/>
+  <circle cx="47.9" cy="1794" r="1.8" fill="#FFFFFF"/>
+  <circle cx="62.1" cy="1794" r="1.8" fill="#FFFFFF"/>
+
+    <!-- Outer Neon Glow Layer (Thick Blurred) -->
+    <path d="M 55.0,0 L 62.1,6 L 68.8,12 L 75.0,18 L 80.3,24 L 84.4,30 L 87.3,36 L 88.8,42 L 88.8,48 L 87.3,54 L 84.4,60 L 80.3,66 L 75.0,72 L 68.8,78 L 62.1,84 L 55.0,90 L 47.9,96 L 41.2,102 L 35.0,108 L 29.7,114 L 25.6,120 L 22.7,126 L 21.2,132 L 21.2,138 L 22.7,144 L 25.6,150 L 29.7,156 L 35.0,162 L 41.2,168 L 47.9,174 L 55.0,180 L 62.1,186 L 68.8,192 L 75.0,198 L 80.3,204 L 84.4,210 L 87.3,216 L 88.8,222 L 88.8,228 L 87.3,234 L 84.4,240 L 80.3,246 L 75.0,252 L 68.8,258 L 62.1,264 L 55.0,270 L 47.9,276 L 41.2,282 L 35.0,288 L 29.7,294 L 25.6,300 L 22.7,306 L 21.2,312 L 21.2,318 L 22.7,324 L 25.6,330 L 29.7,336 L 35.0,342 L 41.2,348 L 47.9,354 L 55.0,360 L 62.1,366 L 68.8,372 L 75.0,378 L 80.3,384 L 84.4,390 L 87.3,396 L 88.8,402 L 88.8,408 L 87.3,414 L 84.4,420 L 80.3,426 L 75.0,432 L 68.8,438 L 62.1,444 L 55.0,450 L 47.9,456 L 41.2,462 L 35.0,468 L 29.7,474 L 25.6,480 L 22.7,486 L 21.2,492 L 21.2,498 L 22.7,504 L 25.6,510 L 29.7,516 L 35.0,522 L 41.2,528 L 47.9,534 L 55.0,540 L 62.1,546 L 68.8,552 L 75.0,558 L 80.3,564 L 84.4,570 L 87.3,576 L 88.8,582 L 88.8,588 L 87.3,594 L 84.4,600 L 80.3,606 L 75.0,612 L 68.8,618 L 62.1,624 L 55.0,630 L 47.9,636 L 41.2,642 L 35.0,648 L 29.7,654 L 25.6,660 L 22.7,666 L 21.2,672 L 21.2,678 L 22.7,684 L 25.6,690 L 29.7,696 L 35.0,702 L 41.2,708 L 47.9,714 L 55.0,720 L 62.1,726 L 68.8,732 L 75.0,738 L 80.3,744 L 84.4,750 L 87.3,756 L 88.8,762 L 88.8,768 L 87.3,774 L 84.4,780 L 80.3,786 L 75.0,792 L 68.8,798 L 62.1,804 L 55.0,810 L 47.9,816 L 41.2,822 L 35.0,828 L 29.7,834 L 25.6,840 L 22.7,846 L 21.2,852 L 21.2,858 L 22.7,864 L 25.6,870 L 29.7,876 L 35.0,882 L 41.2,888 L 47.9,894 L 55.0,900 L 62.1,906 L 68.8,912 L 75.0,918 L 80.3,924 L 84.4,930 L 87.3,936 L 88.8,942 L 88.8,948 L 87.3,954 L 84.4,960 L 80.3,966 L 75.0,972 L 68.8,978 L 62.1,984 L 55.0,990 L 47.9,996 L 41.2,1002 L 35.0,1008 L 29.7,1014 L 25.6,1020 L 22.7,1026 L 21.2,1032 L 21.2,1038 L 22.7,1044 L 25.6,1050 L 29.7,1056 L 35.0,1062 L 41.2,1068 L 47.9,1074 L 55.0,1080 L 62.1,1086 L 68.8,1092 L 75.0,1098 L 80.3,1104 L 84.4,1110 L 87.3,1116 L 88.8,1122 L 88.8,1128 L 87.3,1134 L 84.4,1140 L 80.3,1146 L 75.0,1152 L 68.8,1158 L 62.1,1164 L 55.0,1170 L 47.9,1176 L 41.2,1182 L 35.0,1188 L 29.7,1194 L 25.6,1200 L 22.7,1206 L 21.2,1212 L 21.2,1218 L 22.7,1224 L 25.6,1230 L 29.7,1236 L 35.0,1242 L 41.2,1248 L 47.9,1254 L 55.0,1260 L 62.1,1266 L 68.8,1272 L 75.0,1278 L 80.3,1284 L 84.4,1290 L 87.3,1296 L 88.8,1302 L 88.8,1308 L 87.3,1314 L 84.4,1320 L 80.3,1326 L 75.0,1332 L 68.8,1338 L 62.1,1344 L 55.0,1350 L 47.9,1356 L 41.2,1362 L 35.0,1368 L 29.7,1374 L 25.6,1380 L 22.7,1386 L 21.2,1392 L 21.2,1398 L 22.7,1404 L 25.6,1410 L 29.7,1416 L 35.0,1422 L 41.2,1428 L 47.9,1434 L 55.0,1440 L 62.1,1446 L 68.8,1452 L 75.0,1458 L 80.3,1464 L 84.4,1470 L 87.3,1476 L 88.8,1482 L 88.8,1488 L 87.3,1494 L 84.4,1500 L 80.3,1506 L 75.0,1512 L 68.8,1518 L 62.1,1524 L 55.0,1530 L 47.9,1536 L 41.2,1542 L 35.0,1548 L 29.7,1554 L 25.6,1560 L 22.7,1566 L 21.2,1572 L 21.2,1578 L 22.7,1584 L 25.6,1590 L 29.7,1596 L 35.0,1602 L 41.2,1608 L 47.9,1614 L 55.0,1620 L 62.1,1626 L 68.8,1632 L 75.0,1638 L 80.3,1644 L 84.4,1650 L 87.3,1656 L 88.8,1662 L 88.8,1668 L 87.3,1674 L 84.4,1680 L 80.3,1686 L 75.0,1692 L 68.8,1698 L 62.1,1704 L 55.0,1710 L 47.9,1716 L 41.2,1722 L 35.0,1728 L 29.7,1734 L 25.6,1740 L 22.7,1746 L 21.2,1752 L 21.2,1758 L 22.7,1764 L 25.6,1770 L 29.7,1776 L 35.0,1782 L 41.2,1788 L 47.9,1794 L 55.0,1800" stroke="#FF007F" stroke-width="7" stroke-linecap="round" fill="none" opacity="0.6" filter="url(#neonGlow)"/>
+    <path d="M 55.0,0 L 47.9,6 L 41.2,12 L 35.0,18 L 29.7,24 L 25.6,30 L 22.7,36 L 21.2,42 L 21.2,48 L 22.7,54 L 25.6,60 L 29.7,66 L 35.0,72 L 41.2,78 L 47.9,84 L 55.0,90 L 62.1,96 L 68.8,102 L 75.0,108 L 80.3,114 L 84.4,120 L 87.3,126 L 88.8,132 L 88.8,138 L 87.3,144 L 84.4,150 L 80.3,156 L 75.0,162 L 68.8,168 L 62.1,174 L 55.0,180 L 47.9,186 L 41.2,192 L 35.0,198 L 29.7,204 L 25.6,210 L 22.7,216 L 21.2,222 L 21.2,228 L 22.7,234 L 25.6,240 L 29.7,246 L 35.0,252 L 41.2,258 L 47.9,264 L 55.0,270 L 62.1,276 L 68.8,282 L 75.0,288 L 80.3,294 L 84.4,300 L 87.3,306 L 88.8,312 L 88.8,318 L 87.3,324 L 84.4,330 L 80.3,336 L 75.0,342 L 68.8,348 L 62.1,354 L 55.0,360 L 47.9,366 L 41.2,372 L 35.0,378 L 29.7,384 L 25.6,390 L 22.7,396 L 21.2,402 L 21.2,408 L 22.7,414 L 25.6,420 L 29.7,426 L 35.0,432 L 41.2,438 L 47.9,444 L 55.0,450 L 62.1,456 L 68.8,462 L 75.0,468 L 80.3,474 L 84.4,480 L 87.3,486 L 88.8,492 L 88.8,498 L 87.3,504 L 84.4,510 L 80.3,516 L 75.0,522 L 68.8,528 L 62.1,534 L 55.0,540 L 47.9,546 L 41.2,552 L 35.0,558 L 29.7,564 L 25.6,570 L 22.7,576 L 21.2,582 L 21.2,588 L 22.7,594 L 25.6,600 L 29.7,606 L 35.0,612 L 41.2,618 L 47.9,624 L 55.0,630 L 62.1,636 L 68.8,642 L 75.0,648 L 80.3,654 L 84.4,660 L 87.3,666 L 88.8,672 L 88.8,678 L 87.3,684 L 84.4,690 L 80.3,696 L 75.0,702 L 68.8,708 L 62.1,714 L 55.0,720 L 47.9,726 L 41.2,732 L 35.0,738 L 29.7,744 L 25.6,750 L 22.7,756 L 21.2,762 L 21.2,768 L 22.7,774 L 25.6,780 L 29.7,786 L 35.0,792 L 41.2,798 L 47.9,804 L 55.0,810 L 62.1,816 L 68.8,822 L 75.0,828 L 80.3,834 L 84.4,840 L 87.3,846 L 88.8,852 L 88.8,858 L 87.3,864 L 84.4,870 L 80.3,876 L 75.0,882 L 68.8,888 L 62.1,894 L 55.0,900 L 47.9,906 L 41.2,912 L 35.0,918 L 29.7,924 L 25.6,930 L 22.7,936 L 21.2,942 L 21.2,948 L 22.7,954 L 25.6,960 L 29.7,966 L 35.0,972 L 41.2,978 L 47.9,984 L 55.0,990 L 62.1,996 L 68.8,1002 L 75.0,1008 L 80.3,1014 L 84.4,1020 L 87.3,1026 L 88.8,1032 L 88.8,1038 L 87.3,1044 L 84.4,1050 L 80.3,1056 L 75.0,1062 L 68.8,1068 L 62.1,1074 L 55.0,1080 L 47.9,1086 L 41.2,1092 L 35.0,1098 L 29.7,1104 L 25.6,1110 L 22.7,1116 L 21.2,1122 L 21.2,1128 L 22.7,1134 L 25.6,1140 L 29.7,1146 L 35.0,1152 L 41.2,1158 L 47.9,1164 L 55.0,1170 L 62.1,1176 L 68.8,1182 L 75.0,1188 L 80.3,1194 L 84.4,1200 L 87.3,1206 L 88.8,1212 L 88.8,1218 L 87.3,1224 L 84.4,1230 L 80.3,1236 L 75.0,1242 L 68.8,1248 L 62.1,1254 L 55.0,1260 L 47.9,1266 L 41.2,1272 L 35.0,1278 L 29.7,1284 L 25.6,1290 L 22.7,1296 L 21.2,1302 L 21.2,1308 L 22.7,1314 L 25.6,1320 L 29.7,1326 L 35.0,1332 L 41.2,1338 L 47.9,1344 L 55.0,1350 L 62.1,1356 L 68.8,1362 L 75.0,1368 L 80.3,1374 L 84.4,1380 L 87.3,1386 L 88.8,1392 L 88.8,1398 L 87.3,1404 L 84.4,1410 L 80.3,1416 L 75.0,1422 L 68.8,1428 L 62.1,1434 L 55.0,1440 L 47.9,1446 L 41.2,1452 L 35.0,1458 L 29.7,1464 L 25.6,1470 L 22.7,1476 L 21.2,1482 L 21.2,1488 L 22.7,1494 L 25.6,1500 L 29.7,1506 L 35.0,1512 L 41.2,1518 L 47.9,1524 L 55.0,1530 L 62.1,1536 L 68.8,1542 L 75.0,1548 L 80.3,1554 L 84.4,1560 L 87.3,1566 L 88.8,1572 L 88.8,1578 L 87.3,1584 L 84.4,1590 L 80.3,1596 L 75.0,1602 L 68.8,1608 L 62.1,1614 L 55.0,1620 L 47.9,1626 L 41.2,1632 L 35.0,1638 L 29.7,1644 L 25.6,1650 L 22.7,1656 L 21.2,1662 L 21.2,1668 L 22.7,1674 L 25.6,1680 L 29.7,1686 L 35.0,1692 L 41.2,1698 L 47.9,1704 L 55.0,1710 L 62.1,1716 L 68.8,1722 L 75.0,1728 L 80.3,1734 L 84.4,1740 L 87.3,1746 L 88.8,1752 L 88.8,1758 L 87.3,1764 L 84.4,1770 L 80.3,1776 L 75.0,1782 L 68.8,1788 L 62.1,1794 L 55.0,1800" stroke="#FF0055" stroke-width="7" stroke-linecap="round" fill="none" opacity="0.6" filter="url(#neonGlow)"/>
+
+    <!-- Vivid Neon Body Layer -->
+    <path d="M 55.0,0 L 62.1,6 L 68.8,12 L 75.0,18 L 80.3,24 L 84.4,30 L 87.3,36 L 88.8,42 L 88.8,48 L 87.3,54 L 84.4,60 L 80.3,66 L 75.0,72 L 68.8,78 L 62.1,84 L 55.0,90 L 47.9,96 L 41.2,102 L 35.0,108 L 29.7,114 L 25.6,120 L 22.7,126 L 21.2,132 L 21.2,138 L 22.7,144 L 25.6,150 L 29.7,156 L 35.0,162 L 41.2,168 L 47.9,174 L 55.0,180 L 62.1,186 L 68.8,192 L 75.0,198 L 80.3,204 L 84.4,210 L 87.3,216 L 88.8,222 L 88.8,228 L 87.3,234 L 84.4,240 L 80.3,246 L 75.0,252 L 68.8,258 L 62.1,264 L 55.0,270 L 47.9,276 L 41.2,282 L 35.0,288 L 29.7,294 L 25.6,300 L 22.7,306 L 21.2,312 L 21.2,318 L 22.7,324 L 25.6,330 L 29.7,336 L 35.0,342 L 41.2,348 L 47.9,354 L 55.0,360 L 62.1,366 L 68.8,372 L 75.0,378 L 80.3,384 L 84.4,390 L 87.3,396 L 88.8,402 L 88.8,408 L 87.3,414 L 84.4,420 L 80.3,426 L 75.0,432 L 68.8,438 L 62.1,444 L 55.0,450 L 47.9,456 L 41.2,462 L 35.0,468 L 29.7,474 L 25.6,480 L 22.7,486 L 21.2,492 L 21.2,498 L 22.7,504 L 25.6,510 L 29.7,516 L 35.0,522 L 41.2,528 L 47.9,534 L 55.0,540 L 62.1,546 L 68.8,552 L 75.0,558 L 80.3,564 L 84.4,570 L 87.3,576 L 88.8,582 L 88.8,588 L 87.3,594 L 84.4,600 L 80.3,606 L 75.0,612 L 68.8,618 L 62.1,624 L 55.0,630 L 47.9,636 L 41.2,642 L 35.0,648 L 29.7,654 L 25.6,660 L 22.7,666 L 21.2,672 L 21.2,678 L 22.7,684 L 25.6,690 L 29.7,696 L 35.0,702 L 41.2,708 L 47.9,714 L 55.0,720 L 62.1,726 L 68.8,732 L 75.0,738 L 80.3,744 L 84.4,750 L 87.3,756 L 88.8,762 L 88.8,768 L 87.3,774 L 84.4,780 L 80.3,786 L 75.0,792 L 68.8,798 L 62.1,804 L 55.0,810 L 47.9,816 L 41.2,822 L 35.0,828 L 29.7,834 L 25.6,840 L 22.7,846 L 21.2,852 L 21.2,858 L 22.7,864 L 25.6,870 L 29.7,876 L 35.0,882 L 41.2,888 L 47.9,894 L 55.0,900 L 62.1,906 L 68.8,912 L 75.0,918 L 80.3,924 L 84.4,930 L 87.3,936 L 88.8,942 L 88.8,948 L 87.3,954 L 84.4,960 L 80.3,966 L 75.0,972 L 68.8,978 L 62.1,984 L 55.0,990 L 47.9,996 L 41.2,1002 L 35.0,1008 L 29.7,1014 L 25.6,1020 L 22.7,1026 L 21.2,1032 L 21.2,1038 L 22.7,1044 L 25.6,1050 L 29.7,1056 L 35.0,1062 L 41.2,1068 L 47.9,1074 L 55.0,1080 L 62.1,1086 L 68.8,1092 L 75.0,1098 L 80.3,1104 L 84.4,1110 L 87.3,1116 L 88.8,1122 L 88.8,1128 L 87.3,1134 L 84.4,1140 L 80.3,1146 L 75.0,1152 L 68.8,1158 L 62.1,1164 L 55.0,1170 L 47.9,1176 L 41.2,1182 L 35.0,1188 L 29.7,1194 L 25.6,1200 L 22.7,1206 L 21.2,1212 L 21.2,1218 L 22.7,1224 L 25.6,1230 L 29.7,1236 L 35.0,1242 L 41.2,1248 L 47.9,1254 L 55.0,1260 L 62.1,1266 L 68.8,1272 L 75.0,1278 L 80.3,1284 L 84.4,1290 L 87.3,1296 L 88.8,1302 L 88.8,1308 L 87.3,1314 L 84.4,1320 L 80.3,1326 L 75.0,1332 L 68.8,1338 L 62.1,1344 L 55.0,1350 L 47.9,1356 L 41.2,1362 L 35.0,1368 L 29.7,1374 L 25.6,1380 L 22.7,1386 L 21.2,1392 L 21.2,1398 L 22.7,1404 L 25.6,1410 L 29.7,1416 L 35.0,1422 L 41.2,1428 L 47.9,1434 L 55.0,1440 L 62.1,1446 L 68.8,1452 L 75.0,1458 L 80.3,1464 L 84.4,1470 L 87.3,1476 L 88.8,1482 L 88.8,1488 L 87.3,1494 L 84.4,1500 L 80.3,1506 L 75.0,1512 L 68.8,1518 L 62.1,1524 L 55.0,1530 L 47.9,1536 L 41.2,1542 L 35.0,1548 L 29.7,1554 L 25.6,1560 L 22.7,1566 L 21.2,1572 L 21.2,1578 L 22.7,1584 L 25.6,1590 L 29.7,1596 L 35.0,1602 L 41.2,1608 L 47.9,1614 L 55.0,1620 L 62.1,1626 L 68.8,1632 L 75.0,1638 L 80.3,1644 L 84.4,1650 L 87.3,1656 L 88.8,1662 L 88.8,1668 L 87.3,1674 L 84.4,1680 L 80.3,1686 L 75.0,1692 L 68.8,1698 L 62.1,1704 L 55.0,1710 L 47.9,1716 L 41.2,1722 L 35.0,1728 L 29.7,1734 L 25.6,1740 L 22.7,1746 L 21.2,1752 L 21.2,1758 L 22.7,1764 L 25.6,1770 L 29.7,1776 L 35.0,1782 L 41.2,1788 L 47.9,1794 L 55.0,1800" stroke="url(#neonPinkOuter)" stroke-width="3.5" stroke-linecap="round" fill="none" filter="url(#neonGlowSmall)"/>
+    <path d="M 55.0,0 L 47.9,6 L 41.2,12 L 35.0,18 L 29.7,24 L 25.6,30 L 22.7,36 L 21.2,42 L 21.2,48 L 22.7,54 L 25.6,60 L 29.7,66 L 35.0,72 L 41.2,78 L 47.9,84 L 55.0,90 L 62.1,96 L 68.8,102 L 75.0,108 L 80.3,114 L 84.4,120 L 87.3,126 L 88.8,132 L 88.8,138 L 87.3,144 L 84.4,150 L 80.3,156 L 75.0,162 L 68.8,168 L 62.1,174 L 55.0,180 L 47.9,186 L 41.2,192 L 35.0,198 L 29.7,204 L 25.6,210 L 22.7,216 L 21.2,222 L 21.2,228 L 22.7,234 L 25.6,240 L 29.7,246 L 35.0,252 L 41.2,258 L 47.9,264 L 55.0,270 L 62.1,276 L 68.8,282 L 75.0,288 L 80.3,294 L 84.4,300 L 87.3,306 L 88.8,312 L 88.8,318 L 87.3,324 L 84.4,330 L 80.3,336 L 75.0,342 L 68.8,348 L 62.1,354 L 55.0,360 L 47.9,366 L 41.2,372 L 35.0,378 L 29.7,384 L 25.6,390 L 22.7,396 L 21.2,402 L 21.2,408 L 22.7,414 L 25.6,420 L 29.7,426 L 35.0,432 L 41.2,438 L 47.9,444 L 55.0,450 L 62.1,456 L 68.8,462 L 75.0,468 L 80.3,474 L 84.4,480 L 87.3,486 L 88.8,492 L 88.8,498 L 87.3,504 L 84.4,510 L 80.3,516 L 75.0,522 L 68.8,528 L 62.1,534 L 55.0,540 L 47.9,546 L 41.2,552 L 35.0,558 L 29.7,564 L 25.6,570 L 22.7,576 L 21.2,582 L 21.2,588 L 22.7,594 L 25.6,600 L 29.7,606 L 35.0,612 L 41.2,618 L 47.9,624 L 55.0,630 L 62.1,636 L 68.8,642 L 75.0,648 L 80.3,654 L 84.4,660 L 87.3,666 L 88.8,672 L 88.8,678 L 87.3,684 L 84.4,690 L 80.3,696 L 75.0,702 L 68.8,708 L 62.1,714 L 55.0,720 L 47.9,726 L 41.2,732 L 35.0,738 L 29.7,744 L 25.6,750 L 22.7,756 L 21.2,762 L 21.2,768 L 22.7,774 L 25.6,780 L 29.7,786 L 35.0,792 L 41.2,798 L 47.9,804 L 55.0,810 L 62.1,816 L 68.8,822 L 75.0,828 L 80.3,834 L 84.4,840 L 87.3,846 L 88.8,852 L 88.8,858 L 87.3,864 L 84.4,870 L 80.3,876 L 75.0,882 L 68.8,888 L 62.1,894 L 55.0,900 L 47.9,906 L 41.2,912 L 35.0,918 L 29.7,924 L 25.6,930 L 22.7,936 L 21.2,942 L 21.2,948 L 22.7,954 L 25.6,960 L 29.7,966 L 35.0,972 L 41.2,978 L 47.9,984 L 55.0,990 L 62.1,996 L 68.8,1002 L 75.0,1008 L 80.3,1014 L 84.4,1020 L 87.3,1026 L 88.8,1032 L 88.8,1038 L 87.3,1044 L 84.4,1050 L 80.3,1056 L 75.0,1062 L 68.8,1068 L 62.1,1074 L 55.0,1080 L 47.9,1086 L 41.2,1092 L 35.0,1098 L 29.7,1104 L 25.6,1110 L 22.7,1116 L 21.2,1122 L 21.2,1128 L 22.7,1134 L 25.6,1140 L 29.7,1146 L 35.0,1152 L 41.2,1158 L 47.9,1164 L 55.0,1170 L 62.1,1176 L 68.8,1182 L 75.0,1188 L 80.3,1194 L 84.4,1200 L 87.3,1206 L 88.8,1212 L 88.8,1218 L 87.3,1224 L 84.4,1230 L 80.3,1236 L 75.0,1242 L 68.8,1248 L 62.1,1254 L 55.0,1260 L 47.9,1266 L 41.2,1272 L 35.0,1278 L 29.7,1284 L 25.6,1290 L 22.7,1296 L 21.2,1302 L 21.2,1308 L 22.7,1314 L 25.6,1320 L 29.7,1326 L 35.0,1332 L 41.2,1338 L 47.9,1344 L 55.0,1350 L 62.1,1356 L 68.8,1362 L 75.0,1368 L 80.3,1374 L 84.4,1380 L 87.3,1386 L 88.8,1392 L 88.8,1398 L 87.3,1404 L 84.4,1410 L 80.3,1416 L 75.0,1422 L 68.8,1428 L 62.1,1434 L 55.0,1440 L 47.9,1446 L 41.2,1452 L 35.0,1458 L 29.7,1464 L 25.6,1470 L 22.7,1476 L 21.2,1482 L 21.2,1488 L 22.7,1494 L 25.6,1500 L 29.7,1506 L 35.0,1512 L 41.2,1518 L 47.9,1524 L 55.0,1530 L 62.1,1536 L 68.8,1542 L 75.0,1548 L 80.3,1554 L 84.4,1560 L 87.3,1566 L 88.8,1572 L 88.8,1578 L 87.3,1584 L 84.4,1590 L 80.3,1596 L 75.0,1602 L 68.8,1608 L 62.1,1614 L 55.0,1620 L 47.9,1626 L 41.2,1632 L 35.0,1638 L 29.7,1644 L 25.6,1650 L 22.7,1656 L 21.2,1662 L 21.2,1668 L 22.7,1674 L 25.6,1680 L 29.7,1686 L 35.0,1692 L 41.2,1698 L 47.9,1704 L 55.0,1710 L 62.1,1716 L 68.8,1722 L 75.0,1728 L 80.3,1734 L 84.4,1740 L 87.3,1746 L 88.8,1752 L 88.8,1758 L 87.3,1764 L 84.4,1770 L 80.3,1776 L 75.0,1782 L 68.8,1788 L 62.1,1794 L 55.0,1800" stroke="url(#neonPinkOuter)" stroke-width="3.5" stroke-linecap="round" fill="none" filter="url(#neonGlowSmall)"/>
+
+    <!-- White-Hot Core High-Voltage Centerline -->
+    <path d="M 55.0,0 L 62.1,6 L 68.8,12 L 75.0,18 L 80.3,24 L 84.4,30 L 87.3,36 L 88.8,42 L 88.8,48 L 87.3,54 L 84.4,60 L 80.3,66 L 75.0,72 L 68.8,78 L 62.1,84 L 55.0,90 L 47.9,96 L 41.2,102 L 35.0,108 L 29.7,114 L 25.6,120 L 22.7,126 L 21.2,132 L 21.2,138 L 22.7,144 L 25.6,150 L 29.7,156 L 35.0,162 L 41.2,168 L 47.9,174 L 55.0,180 L 62.1,186 L 68.8,192 L 75.0,198 L 80.3,204 L 84.4,210 L 87.3,216 L 88.8,222 L 88.8,228 L 87.3,234 L 84.4,240 L 80.3,246 L 75.0,252 L 68.8,258 L 62.1,264 L 55.0,270 L 47.9,276 L 41.2,282 L 35.0,288 L 29.7,294 L 25.6,300 L 22.7,306 L 21.2,312 L 21.2,318 L 22.7,324 L 25.6,330 L 29.7,336 L 35.0,342 L 41.2,348 L 47.9,354 L 55.0,360 L 62.1,366 L 68.8,372 L 75.0,378 L 80.3,384 L 84.4,390 L 87.3,396 L 88.8,402 L 88.8,408 L 87.3,414 L 84.4,420 L 80.3,426 L 75.0,432 L 68.8,438 L 62.1,444 L 55.0,450 L 47.9,456 L 41.2,462 L 35.0,468 L 29.7,474 L 25.6,480 L 22.7,486 L 21.2,492 L 21.2,498 L 22.7,504 L 25.6,510 L 29.7,516 L 35.0,522 L 41.2,528 L 47.9,534 L 55.0,540 L 62.1,546 L 68.8,552 L 75.0,558 L 80.3,564 L 84.4,570 L 87.3,576 L 88.8,582 L 88.8,588 L 87.3,594 L 84.4,600 L 80.3,606 L 75.0,612 L 68.8,618 L 62.1,624 L 55.0,630 L 47.9,636 L 41.2,642 L 35.0,648 L 29.7,654 L 25.6,660 L 22.7,666 L 21.2,672 L 21.2,678 L 22.7,684 L 25.6,690 L 29.7,696 L 35.0,702 L 41.2,708 L 47.9,714 L 55.0,720 L 62.1,726 L 68.8,732 L 75.0,738 L 80.3,744 L 84.4,750 L 87.3,756 L 88.8,762 L 88.8,768 L 87.3,774 L 84.4,780 L 80.3,786 L 75.0,792 L 68.8,798 L 62.1,804 L 55.0,810 L 47.9,816 L 41.2,822 L 35.0,828 L 29.7,834 L 25.6,840 L 22.7,846 L 21.2,852 L 21.2,858 L 22.7,864 L 25.6,870 L 29.7,876 L 35.0,882 L 41.2,888 L 47.9,894 L 55.0,900 L 62.1,906 L 68.8,912 L 75.0,918 L 80.3,924 L 84.4,930 L 87.3,936 L 88.8,942 L 88.8,948 L 87.3,954 L 84.4,960 L 80.3,966 L 75.0,972 L 68.8,978 L 62.1,984 L 55.0,990 L 47.9,996 L 41.2,1002 L 35.0,1008 L 29.7,1014 L 25.6,1020 L 22.7,1026 L 21.2,1032 L 21.2,1038 L 22.7,1044 L 25.6,1050 L 29.7,1056 L 35.0,1062 L 41.2,1068 L 47.9,1074 L 55.0,1080 L 62.1,1086 L 68.8,1092 L 75.0,1098 L 80.3,1104 L 84.4,1110 L 87.3,1116 L 88.8,1122 L 88.8,1128 L 87.3,1134 L 84.4,1140 L 80.3,1146 L 75.0,1152 L 68.8,1158 L 62.1,1164 L 55.0,1170 L 47.9,1176 L 41.2,1182 L 35.0,1188 L 29.7,1194 L 25.6,1200 L 22.7,1206 L 21.2,1212 L 21.2,1218 L 22.7,1224 L 25.6,1230 L 29.7,1236 L 35.0,1242 L 41.2,1248 L 47.9,1254 L 55.0,1260 L 62.1,1266 L 68.8,1272 L 75.0,1278 L 80.3,1284 L 84.4,1290 L 87.3,1296 L 88.8,1302 L 88.8,1308 L 87.3,1314 L 84.4,1320 L 80.3,1326 L 75.0,1332 L 68.8,1338 L 62.1,1344 L 55.0,1350 L 47.9,1356 L 41.2,1362 L 35.0,1368 L 29.7,1374 L 25.6,1380 L 22.7,1386 L 21.2,1392 L 21.2,1398 L 22.7,1404 L 25.6,1410 L 29.7,1416 L 35.0,1422 L 41.2,1428 L 47.9,1434 L 55.0,1440 L 62.1,1446 L 68.8,1452 L 75.0,1458 L 80.3,1464 L 84.4,1470 L 87.3,1476 L 88.8,1482 L 88.8,1488 L 87.3,1494 L 84.4,1500 L 80.3,1506 L 75.0,1512 L 68.8,1518 L 62.1,1524 L 55.0,1530 L 47.9,1536 L 41.2,1542 L 35.0,1548 L 29.7,1554 L 25.6,1560 L 22.7,1566 L 21.2,1572 L 21.2,1578 L 22.7,1584 L 25.6,1590 L 29.7,1596 L 35.0,1602 L 41.2,1608 L 47.9,1614 L 55.0,1620 L 62.1,1626 L 68.8,1632 L 75.0,1638 L 80.3,1644 L 84.4,1650 L 87.3,1656 L 88.8,1662 L 88.8,1668 L 87.3,1674 L 84.4,1680 L 80.3,1686 L 75.0,1692 L 68.8,1698 L 62.1,1704 L 55.0,1710 L 47.9,1716 L 41.2,1722 L 35.0,1728 L 29.7,1734 L 25.6,1740 L 22.7,1746 L 21.2,1752 L 21.2,1758 L 22.7,1764 L 25.6,1770 L 29.7,1776 L 35.0,1782 L 41.2,1788 L 47.9,1794 L 55.0,1800" stroke="#FFF5FA" stroke-width="1.4" stroke-linecap="round" fill="none" opacity="0.95"/>
+    <path d="M 55.0,0 L 47.9,6 L 41.2,12 L 35.0,18 L 29.7,24 L 25.6,30 L 22.7,36 L 21.2,42 L 21.2,48 L 22.7,54 L 25.6,60 L 29.7,66 L 35.0,72 L 41.2,78 L 47.9,84 L 55.0,90 L 62.1,96 L 68.8,102 L 75.0,108 L 80.3,114 L 84.4,120 L 87.3,126 L 88.8,132 L 88.8,138 L 87.3,144 L 84.4,150 L 80.3,156 L 75.0,162 L 68.8,168 L 62.1,174 L 55.0,180 L 47.9,186 L 41.2,192 L 35.0,198 L 29.7,204 L 25.6,210 L 22.7,216 L 21.2,222 L 21.2,228 L 22.7,234 L 25.6,240 L 29.7,246 L 35.0,252 L 41.2,258 L 47.9,264 L 55.0,270 L 62.1,276 L 68.8,282 L 75.0,288 L 80.3,294 L 84.4,300 L 87.3,306 L 88.8,312 L 88.8,318 L 87.3,324 L 84.4,330 L 80.3,336 L 75.0,342 L 68.8,348 L 62.1,354 L 55.0,360 L 47.9,366 L 41.2,372 L 35.0,378 L 29.7,384 L 25.6,390 L 22.7,396 L 21.2,402 L 21.2,408 L 22.7,414 L 25.6,420 L 29.7,426 L 35.0,432 L 41.2,438 L 47.9,444 L 55.0,450 L 62.1,456 L 68.8,462 L 75.0,468 L 80.3,474 L 84.4,480 L 87.3,486 L 88.8,492 L 88.8,498 L 87.3,504 L 84.4,510 L 80.3,516 L 75.0,522 L 68.8,528 L 62.1,534 L 55.0,540 L 47.9,546 L 41.2,552 L 35.0,558 L 29.7,564 L 25.6,570 L 22.7,576 L 21.2,582 L 21.2,588 L 22.7,594 L 25.6,600 L 29.7,606 L 35.0,612 L 41.2,618 L 47.9,624 L 55.0,630 L 62.1,636 L 68.8,642 L 75.0,648 L 80.3,654 L 84.4,660 L 87.3,666 L 88.8,672 L 88.8,678 L 87.3,684 L 84.4,690 L 80.3,696 L 75.0,702 L 68.8,708 L 62.1,714 L 55.0,720 L 47.9,726 L 41.2,732 L 35.0,738 L 29.7,744 L 25.6,750 L 22.7,756 L 21.2,762 L 21.2,768 L 22.7,774 L 25.6,780 L 29.7,786 L 35.0,792 L 41.2,798 L 47.9,804 L 55.0,810 L 62.1,816 L 68.8,822 L 75.0,828 L 80.3,834 L 84.4,840 L 87.3,846 L 88.8,852 L 88.8,858 L 87.3,864 L 84.4,870 L 80.3,876 L 75.0,882 L 68.8,888 L 62.1,894 L 55.0,900 L 47.9,906 L 41.2,912 L 35.0,918 L 29.7,924 L 25.6,930 L 22.7,936 L 21.2,942 L 21.2,948 L 22.7,954 L 25.6,960 L 29.7,966 L 35.0,972 L 41.2,978 L 47.9,984 L 55.0,990 L 62.1,996 L 68.8,1002 L 75.0,1008 L 80.3,1014 L 84.4,1020 L 87.3,1026 L 88.8,1032 L 88.8,1038 L 87.3,1044 L 84.4,1050 L 80.3,1056 L 75.0,1062 L 68.8,1068 L 62.1,1074 L 55.0,1080 L 47.9,1086 L 41.2,1092 L 35.0,1098 L 29.7,1104 L 25.6,1110 L 22.7,1116 L 21.2,1122 L 21.2,1128 L 22.7,1134 L 25.6,1140 L 29.7,1146 L 35.0,1152 L 41.2,1158 L 47.9,1164 L 55.0,1170 L 62.1,1176 L 68.8,1182 L 75.0,1188 L 80.3,1194 L 84.4,1200 L 87.3,1206 L 88.8,1212 L 88.8,1218 L 87.3,1224 L 84.4,1230 L 80.3,1236 L 75.0,1242 L 68.8,1248 L 62.1,1254 L 55.0,1260 L 47.9,1266 L 41.2,1272 L 35.0,1278 L 29.7,1284 L 25.6,1290 L 22.7,1296 L 21.2,1302 L 21.2,1308 L 22.7,1314 L 25.6,1320 L 29.7,1326 L 35.0,1332 L 41.2,1338 L 47.9,1344 L 55.0,1350 L 62.1,1356 L 68.8,1362 L 75.0,1368 L 80.3,1374 L 84.4,1380 L 87.3,1386 L 88.8,1392 L 88.8,1398 L 87.3,1404 L 84.4,1410 L 80.3,1416 L 75.0,1422 L 68.8,1428 L 62.1,1434 L 55.0,1440 L 47.9,1446 L 41.2,1452 L 35.0,1458 L 29.7,1464 L 25.6,1470 L 22.7,1476 L 21.2,1482 L 21.2,1488 L 22.7,1494 L 25.6,1500 L 29.7,1506 L 35.0,1512 L 41.2,1518 L 47.9,1524 L 55.0,1530 L 62.1,1536 L 68.8,1542 L 75.0,1548 L 80.3,1554 L 84.4,1560 L 87.3,1566 L 88.8,1572 L 88.8,1578 L 87.3,1584 L 84.4,1590 L 80.3,1596 L 75.0,1602 L 68.8,1608 L 62.1,1614 L 55.0,1620 L 47.9,1626 L 41.2,1632 L 35.0,1638 L 29.7,1644 L 25.6,1650 L 22.7,1656 L 21.2,1662 L 21.2,1668 L 22.7,1674 L 25.6,1680 L 29.7,1686 L 35.0,1692 L 41.2,1698 L 47.9,1704 L 55.0,1710 L 62.1,1716 L 68.8,1722 L 75.0,1728 L 80.3,1734 L 84.4,1740 L 87.3,1746 L 88.8,1752 L 88.8,1758 L 87.3,1764 L 84.4,1770 L 80.3,1776 L 75.0,1782 L 68.8,1788 L 62.1,1794 L 55.0,1800" stroke="#FFF5FA" stroke-width="1.4" stroke-linecap="round" fill="none" opacity="0.95"/>
+  </g>
+</svg>
